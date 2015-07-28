@@ -95,3 +95,20 @@ if student in all_students:
 else:
     print ("ABSENT") 
 
+
+
+# 11\19
+# Add a new element, the string "!", to the end of the variable myList. Then, print out how long myList is.
+
+myList = ['Jessica', 'likes', 'ice cream']
+# WRONG-attempt : myList.append[4] = '!'
+myList.append ('!')
+print (len(myList))
+
+
+# 12\19
+# Use a for loop to print "Hello <name>" for every name in the list. For example, the first line of output should be:
+# : Hello Adam
+
+names = ['Adam', 'Tanya', 'Alice', 'Sean']
+
