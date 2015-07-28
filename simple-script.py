@@ -69,12 +69,29 @@ if len(message3) <= 140:
 
 
 # 8\19 
-# to combine particular conditions for print-out decision 
-# ??
+# to check particular combined conditions for print-out decision 
 
 if (good_weather and on_vacation and no_bears):
     print ("camping")
 else:
     print ("staying home") 
 
+
+# 9\19
+# First, print the first (really, zero-th) item in groceryList. Then, print the last item in groceryList. This means you'll write 2 print statements total.
+
+groceryList = ["apples", "cereal", "coffee", "bread"]
+print (groceryList[0]) 
+print (groceryList[3]) 
+
+
+# 10\19
+# print "PRESENT" if student is in the list of students, and "ABSENT" if student is not in the list of students. 
+
+student = "Alice"
+all_students = ['Henry', 'Beatrice', 'Wanda', 'Evan', 'Adam', 'Tanya', 'Alice', 'Sean']
+if student in all_students:
+    print ("PRESENT") 
+else:
+    print ("ABSENT") 
 
