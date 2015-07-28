@@ -2,6 +2,7 @@
 
 
 # 1\19
+# to print 3rd power of favorite_number 
 favorite_number = 111
 print favorite_number*favorite_number*favorite_number 
 
@@ -27,8 +28,9 @@ print("Tuesday's specials are " + tuesday_vegetable + " and " + tuesday_entree)
 
 
 # 4\19
+# to print text with HTML tags markup 
 html = "Test message"
-
+ 
 print ("<b>" + html + "</b>")
 print ("<code>" + html + "</code>")
 print ("<h1>" + html + "</h1>")
@@ -67,11 +69,12 @@ if len(message3) <= 140:
 
 
 # 8\19 
-# 
+# to combine particular conditions for print-out decision 
 # ??
 
 if (good_weather and on_vacation and no_bears):
     print ("camping")
 else:
     print ("staying home") 
+
 
