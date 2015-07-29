@@ -180,3 +180,15 @@ for x in range(len(sentence)) :
 print counter
 
 
+# 18\19
+# Use a for loop to print out the headlines that are longer than maximum_headline_length.
+# You'll need to use if to make choices.
+
+headlines = ["Man Takes First Steps on the Moon",
+			 "Titanic Sinks Four Hours After Hitting Iceberg",
+			 "Dewey Defeats Truman",
+			 "Greatest Crash in Wall Street's History"]
+
+maximum_headline_length = 35
+
+
