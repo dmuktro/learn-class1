@@ -3,6 +3,7 @@
 
 # 1\19
 # to print 3rd power of favorite_number 
+
 favorite_number = 111
 print favorite_number*favorite_number*favorite_number 
 
@@ -29,6 +30,7 @@ print("Tuesday's specials are " + tuesday_vegetable + " and " + tuesday_entree)
 
 # 4\19
 # to print text with HTML tags markup 
+
 html = "Test message"
  
 print ("<b>" + html + "</b>")
@@ -45,6 +47,7 @@ if (today=="Saturday" or today=="Sunday"):  print("SLEEPING IN")
 
 # 6\19 
 # It takes 125 ladybugs to protect 1 tree from aphids. Do we have enough ladybugs to protect our orchard? 
+
 ladybugs = 2600
 trees = 20
 
@@ -56,6 +59,7 @@ else:
 
 # 7\19 
 # We are composing some Tweets for our Twitter followers, but are stuck on the fact that Twitter messages can't be more than 140 characters! We need to only print our messages if they are short enough for Twitter.
+
 message1 = "The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves. -- Ada Lovelace, the first programmer"
 message2 = "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal."
 message3 = "They told me computers could only do arithmetic. -- Computer pioneer Grace Hopper"
@@ -94,7 +98,6 @@ if student in all_students:
     print ("PRESENT") 
 else:
     print ("ABSENT") 
-
 
 
 # 11\19
