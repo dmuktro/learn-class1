@@ -114,5 +114,16 @@ print (len(myList))
 # : Hello Adam
 
 names = ['Adam', 'Tanya', 'Alice', 'Sean']
+for x in names :
+      print ("Hello "+ x)
+
+
+# 13\19
+# Use a for loop to find and print the words that start with "q" in this list.
+words = ['zip', 'blip', 'croissant', 'toast', 'quip', 'quail', 'quetzal', 'quizzical']
+
+for x in words :
+ if x[0] == 'q':
+    print x
 
 
