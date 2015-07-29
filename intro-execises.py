@@ -190,5 +190,21 @@ headlines = ["Man Takes First Steps on the Moon",
 			 "Greatest Crash in Wall Street's History"]
 
 maximum_headline_length = 35
+for x in headlines :
+    if len(x) > maximum_headline_length :
+       print x
 
+
+# 19\19
+# print phrase, but with all of the vowels removed.
+# To do this, use a for loop to loop through phrase letter by letter. As you go through the loop, add each letter you want to keep to phrase_without_vowels. 
+# When you're done looping, print phrase_without_vowels.
+
+phrase_without_vowels = ""
+phrase = "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."
+
+for x in phrase :
+    if (x != "A") and (x != "E") and (x != "I") and (x != "O") and (x != "U") and (x != "a") and (x != "e") and (x != "i") and (x != "o") and (x != "u"):
+       phrase_without_vowels = phrase_without_vowels + x 
+print(phrase_without_vowels)
 
