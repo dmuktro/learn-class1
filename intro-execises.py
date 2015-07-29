@@ -1,14 +1,20 @@
-# from (c) https://www.codecademy.com/courses/python-beginner-en-kSQwt/ and Thanks TO http://bogdankulynych.me/  
+# from Course https://www.codecademy.com/courses/python-beginner-en-kSQwt/ (c) Course by Jessica McKellar 
+# and Thanks TO http://bogdankulynych.me/ 
 
 
 # 1\19
-# to print 3rd power of favorite_number 
+# use Python to print the result of calculating favorite_number to the third power.
+# Add your print statement below the existing code, on line 2.
 
 favorite_number = 111
 print favorite_number*favorite_number*favorite_number 
 
 
 # 2\19
+# Finish the card by printing when and where the party is, using the location and time variables to piece together the string:
+# "The party will be at ____ and starts at ____."
+# Add your print statement below the existing code, on line 6.
+
 name = "Jessica"
 location = "Grendel's Cupcake Den"
 time = "7:30pm"
@@ -18,6 +24,10 @@ print("The party will be at " + location + " and starts at " + time)
 
 
 # 3\19
+# Finish preparing the menu by using the tuesday_vegetable and tuesday_entree variables to print the Tuesday specials. You should print a string of the form:
+# "Tuesday's specials are ____ and ____"
+# Add your print statements below the existing code, starting on line 8.
+
 monday_vegetable = "asparagus"
 monday_entree = "pasta primavera"
 
@@ -207,4 +217,3 @@ for x in phrase :
     if (x != "A") and (x != "E") and (x != "I") and (x != "O") and (x != "U") and (x != "a") and (x != "e") and (x != "i") and (x != "o") and (x != "u"):
        phrase_without_vowels = phrase_without_vowels + x 
 print(phrase_without_vowels)
-
