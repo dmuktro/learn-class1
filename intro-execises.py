@@ -113,4 +113,3 @@ print (len(myList))
 names = ['Adam', 'Tanya', 'Alice', 'Sean']
 
 
-# ?question mark in comment line for attracting attention 
