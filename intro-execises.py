@@ -120,10 +120,21 @@ for x in names :
 
 # 13\19
 # Use a for loop to find and print the words that start with "q" in this list.
+
 words = ['zip', 'blip', 'croissant', 'toast', 'quip', 'quail', 'quetzal', 'quizzical']
 
 for x in words :
  if x[0] == 'q':
+    print x
+
+
+# 14\19
+# Use a for loop to print out only the words that start or end with the letter "z".
+
+words = ["pizazz", "python", "zebra", "pizza"]
+
+for x in words :
+ if x[len(x)-1] == 'z' or x[0] == 'z' :
     print x
 
 
