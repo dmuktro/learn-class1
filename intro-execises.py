@@ -153,5 +153,30 @@ print honor_roll_count
 
 
 # 16\19 
-# 
+# Use a for loop to count how many spaces are in sentence. Use the spaces_count variable to keep track of the number.
+# Then, print spaces_count.
+# Remember to print outside the for loop, after the looping is done!
+
+spaces_count = 0
+sentence = "It was the best of times, it was the worst of times"
+
+for x in range(len(sentence)) :
+    if sentence[x-1] == ' ' :
+       spaces_count = spaces_count + 1
+print spaces_count
+
+
+# 17\19
+# Use a for loop to count how many "f"s (both lower- and upper-case) are in sentence.
+# Then, print that count.
+# Remember to print outside the for loop, after the looping is done!
+
+sentence = "Finished files are the result of years of scientific study combined with the experience of years"
+counter = 0
+
+for x in range(len(sentence)) :
+    if sentence[x-1] == 'F' or sentence[x-1] == 'f' :
+       counter = counter + 1
+print counter
+
 
