@@ -138,3 +138,20 @@ for x in words :
     print x
 
 
+# 15\19
+# Use a for loop to count how many students got an "A" or "B" in the student_grades list. Keep track of that count using the honor_roll_count variable.
+# Then, print honor_roll_count.
+# Remember to print outside the for loop, after the looping is done!
+
+honor_roll_count = 0
+student_grades = ["A", "C", "B", "B", "C", "A", "F", "B", "B", "B", "C", "A"]
+
+for x in student_grades :
+    if (x == "A") or (x == "B") :
+       honor_roll_count = honor_roll_count + 1 
+print honor_roll_count
+
+
+# 16\19 
+# 
+
