@@ -1,10 +1,11 @@
 /* (c) https://www.codecademy.com/courses/web-beginner-en-TlhFi/ */
-
 p {
 	color: red;
+	font-size: 100px;
 }
 
 span {
 	/*Write your CSS here!*/
 	color: blue;
+	font-family: cursive;
 }
