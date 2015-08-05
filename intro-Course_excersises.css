@@ -40,3 +40,27 @@ td {
 table {
     border: 1px solid black;
 }
+
+img {
+	display: block;
+	height: 100px;
+	width: 300px;
+	margin: auto;
+}
+
+p {
+	text-align: center;
+	font-family: Garamond, serif;
+	font-size: 18px;
+}
+
+div {
+    margin: auto;
+	text-align: center;
+}
+/*Start adding your CSS below!*/
+a {
+	text-decoration: none;
+	font-family: Garamond, serif;
+	color: red;
+}
