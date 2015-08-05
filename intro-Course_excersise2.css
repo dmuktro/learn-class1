@@ -1,0 +1,25 @@
+/* (c) https://www.codecademy.com/courses/web-beginner-en-TlhFi/ */
+/*Add your CSS below!*/
+td {
+    height: 50px;
+    border: 1px dashed blue;
+}
+table {
+    border: 1px solid black;
+}
+h1 {
+    font-family: Verdana, sans-serif;
+    color: #576D94;
+}
+p {
+    font-family: Garamond, serif;
+}
+img {
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682b4;
+}
+a {
+    text-decoration: none;
+    color: #cc0000;
+}
