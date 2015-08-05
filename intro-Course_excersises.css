@@ -30,3 +30,13 @@ h5 {
 h6 {
 	color: #8B668B;
 }
+
+/* (c) https://www.codecademy.com/courses/web-beginner-en-TlhFi/ */
+/*Add your CSS below!*/
+td {
+    height: 50px;
+    border: 1px dashed blue;
+}
+table {
+    border: 1px solid black;
+}
