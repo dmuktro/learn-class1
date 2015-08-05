@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <link type="text/css" rel="stylesheet" href="stylesheet2.css"/>
+		<title>Result</title>
+	</head>
+	<body>
+	    <h1>h1 aaa</h1>
+	    <p>para 1
+	    </p>
+	    <img src="https://s3.amazonaws.com/codecademy-blog/assets/da840950.jpg" />
+	    <a href="url">Link text</a>
+	</body>
+</html>
