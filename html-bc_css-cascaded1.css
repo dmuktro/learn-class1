@@ -24,3 +24,23 @@ li p {
 	font-size: 20px;
 	color: #000000;
 }
+
+/*Add your CSS below!*/
+p:first-child {
+    color: red;
+    font-family: cursive;
+}
+p:nth-child(2) {
+    color: red;
+    font-family: tahoma;
+}
+p:nth-child(3) {
+    color: CC0000;
+}
+p:nth-child(4) {
+    color: red;
+    background-color: 00FF00;
+}
+p:nth-child(5) {
+    font-size: 22px;
+}
