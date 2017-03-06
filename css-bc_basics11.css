@@ -69,9 +69,8 @@ p {
 
 /* Add the class selector to this CSS rule */
 
-#header-text {
+.partner {
   padding: 20px;
-  text-align: center;
   margin: 0 auto;
   border-bottom: 1px solid #EEE;
 }
@@ -100,12 +99,15 @@ p {
   border: 1px solid #FFF;
   padding: 40px 0px;
   margin: 5px 0px;
-  text-align: center;
 }
 
 .prop h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
+}
+
+.partner, .prop {
+    text-align: center;
 }
 
 /* 
@@ -115,4 +117,11 @@ across multiple HTML elements, they are insufficient for quickly styling element
 
 CSS offers a solution to this limitation. 
 For multiple elements that should share the same styling, classes can be used to label them.
+*/
+
+/*
+The .breaking selector targets all elements with a class of breaking. 
+The p.breaking selector targets only <p> elements with a class of breaking. 
+This type of selector allows you to be even more specific about a particular element's styling, 
+even when that element must share some styling with other elements.
 */
