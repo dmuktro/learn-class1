@@ -108,3 +108,11 @@ p {
   font-size: 24px;
 }
 
+/* 
+IDs are great for labeling unique elements, but IDs have a limitation. 
+Because unique IDs should not be used 
+across multiple HTML elements, they are insufficient for quickly styling elements that should all share a specific style.
+
+CSS offers a solution to this limitation. 
+For multiple elements that should share the same styling, classes can be used to label them.
+*/
