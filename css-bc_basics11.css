@@ -69,7 +69,7 @@ p {
 
 /* Add the class selector to this CSS rule */
 
- {
+.partner {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
