@@ -69,7 +69,7 @@ p {
 
 /* Add the class selector to this CSS rule */
 
- {
+#header-text {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
@@ -107,4 +107,3 @@ p {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
 }
-
