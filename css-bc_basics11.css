@@ -110,6 +110,7 @@ p {
     text-align: center;
 }
 
+
 /* 
 IDs are great for labeling unique elements, but IDs have a limitation. 
 Because unique IDs should not be used 
@@ -124,4 +125,13 @@ The .breaking selector targets all elements with a class of breaking.
 The p.breaking selector targets only <p> elements with a class of breaking. 
 This type of selector allows you to be even more specific about a particular element's styling, 
 even when that element must share some styling with other elements.
+*/
+
+/*
+Now that you know how to organize code into sections using divs, 
+we can start labeling divs with classes instead, rather than labeling individual elements with classes.
+
+This does not mean that labeling individual elements with classes is no longer useful. 
+Even when divs are labeled with classes, there will be many other times when 
+an individual element will need to be labeled with a class.
 */
