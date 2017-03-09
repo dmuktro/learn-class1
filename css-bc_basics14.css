@@ -1,3 +1,9 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #FFF;
   font-family: 'Raleway', sans-serif;
@@ -42,7 +48,8 @@ li {
   border: 1px solid #FFF;
   position: relative;
   top: 20%;
-  width: 60%;
+  width: 80%;
+  margin: auto;
   padding: 30px 10px;
 }
 
