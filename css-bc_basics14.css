@@ -17,6 +17,9 @@ li {
   letter-spacing: 2px;
   padding: 20px 0px;
   text-transform: uppercase;
+  list-style-type: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .logo {
@@ -94,6 +97,8 @@ p {
   font-size: 14px;
   font-weight: 200;
   text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .share {
