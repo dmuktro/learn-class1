@@ -135,10 +135,26 @@ For images to center properly, they must behave as block-level elements.
 */
 
 /*
+3of12 
 In the example above, the image is aligned using the __margin property. 
 The top and bottom margins of the image's box are set to 0 margin. 
 The left and right margins are set to auto, which automatically sets the exact amount of 
 margin needed on the left and right sides in order to center the image.
   Note: To align images to the left or right side of a page, you can use the 
 float property you learned about earlier.
+*/
+
+/*
+6of12
+A background image is positioned using a 3 by 3 grid (three rows, three columns), meaning 
+  there are 9 total possible positions for the image:
+left top - top left corner of the element's box.
+center top - top center of the element's box.
+right top - top right corner of the element's box.
+left center - left column, center row.
+center center - the center of the element's box.
+right center - right column, center row.
+left bottom - bottom left corner of the element's box.
+center bottom - bottom center of the element's box.
+right bottom - bottom right corner of the element's box.
 */
