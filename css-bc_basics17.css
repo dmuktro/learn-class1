@@ -10,6 +10,7 @@ body {
   top: -55px;
   width: 100%;
   background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
+  background-size: cover;
 }
 
 .navigation {
@@ -156,4 +157,16 @@ right center - right column, center row.
 left bottom - bottom left corner of the element's box.
 center bottom - bottom center of the element's box.
 right bottom - bottom right corner of the element's box.
+*/
+
+/*
+8of12
+To modify a background image's size, you can use the __background-size property.
+This exercise will focus on two of the most common values of the background-size property:
+  cover - expands the image as large as possible to cover the full width or height of a container. 
+If the dimensions of the container (say, a div) are larger than the dimensions of the image, 
+the image will become distorted. 
+This value is best for images that don't communicate important content to the user, like background images.
+  contain - expands the image as large as possible, but the image will be letterboxed, 
+which means it won't cover the full width or height of a container.
 */
