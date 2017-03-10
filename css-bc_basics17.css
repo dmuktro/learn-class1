@@ -131,3 +131,12 @@ a {
 By default, images are inline elements. 
 For images to center properly, they must behave as block-level elements.
 */
+
+/*
+In the example above, the image is aligned using the margin property. 
+The top and bottom margins of the image's box are set to 0 margin. 
+The left and right margins are set to auto, which automatically sets the exact amount of 
+margin needed on the left and right sides in order to center the image.
+Note: To align images to the left or right side of a page, you can use the 
+float property you learned about earlier.
+*/
