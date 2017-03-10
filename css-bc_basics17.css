@@ -127,3 +127,7 @@ a {
   color: #14213D !important;
 }
 
+/*
+By default, images are inline elements. 
+For images to center properly, they must behave as block-level elements.
+*/
