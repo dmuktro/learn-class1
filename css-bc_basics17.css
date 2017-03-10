@@ -11,6 +11,7 @@ body {
   width: 100%;
   background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .navigation {
