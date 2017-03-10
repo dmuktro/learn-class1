@@ -9,8 +9,7 @@ body {
   position: relative;
   top: -55px;
   width: 100%;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
-  background-repeat: no-repeat;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat center bottom;
 }
 
 .navigation {
