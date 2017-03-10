@@ -100,6 +100,7 @@ a {
 
 .btn {
   background-color: #14213D;
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   color: #FFF;
   font-family: 'Amatic SC', cursive;
   font-size: 26px;
@@ -170,4 +171,16 @@ the image will become distorted.
 This value is best for images that don't communicate important content to the user, like background images.
   contain - expands the image as large as possible, but the image will be letterboxed, 
 which means it won't cover the full width or height of a container.
+*/
+
+/*
+10of12
+Gradients are planned to be a part of the newest revision of CSS, CSS3. 
+Due to the many browsers available, there is no standard way of defining a gradient 
+using CSS (different browsers require different syntax). In this exercise, 
+we'll look at one value supported on a couple of major browsers.
+The background-image property can be set to the following value:
+  -webkit-linear-gradient() - this value accepts two arguments: 
+the two colors the linear gradient will transition to and from. 
+The colors are usually specified as hex color codes.
 */
