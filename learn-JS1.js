@@ -10,9 +10,14 @@ if (hungerLevel > 7) {
 } else {
   console.log('Let\'s eat later.');
 }
-var moonPhase = 'full';
+
+var moonPhase = 'mos';
 if (moonPhase === 'full') {
   console.log('Howwwwlll!!');
-} else {
-  console.log('I swear I am not a werewolf...');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else { 
+  console.log('Invalid moon phase');
 }
