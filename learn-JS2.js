@@ -1,5 +1,7 @@
-function takeOrder(topping) {
-  console.log('Order: pizza topped with ' + topping); 
+function takeOrder(topping, crustType) {
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping ); 
 }
 
-takeOrder('bacon');
+takeOrder('bacon','thin');
+takeOrder('cheese','thin');
+takeOrder('bacon','thick');
