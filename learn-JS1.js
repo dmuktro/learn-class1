@@ -11,8 +11,9 @@ if (hungerLevel > 7) {
   console.log('Let\'s eat later.');
 }
 
-var moonPhase = 'mos';
-if (moonPhase === 'full') {
+var moonPhase = 'full';
+var foggyNight = false;
+if (moonPhase === 'full' || foggyNight) {
   console.log('Howwwwlll!!');
 } else if (moonPhase === 'mostly full') {
   console.log('Arms and legs are getting hairier');
