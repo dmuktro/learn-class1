@@ -4,3 +4,9 @@ if (harryPotterFan) {
 } else {
     console.log('I lead a muggle\'s life.');
 } 
+var hungerLevel = 10;
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
+} else {
+  console.log('Let\'s eat later.');
+}
