@@ -47,6 +47,7 @@ table {
   overflow-y: scroll;
   position: static;
   width: 80%;
+  font-size: 18px; 
 }
 
 thead th {
