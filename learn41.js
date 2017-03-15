@@ -21,3 +21,7 @@ console.log("**Apartment Building Information**");
 console.log("Laundry code: " + buildingLaundryCode + "\nPhone: " + buildingPhone + "\nMailing address: " + buildingAddress);
 
 //now it's oK 
+
+// - Scope is the idea in programming that some variables are acessible/inaccessible from other parts of the program.
+// -- Global Scope refers to variables that are accessible to every part of the program.
+// -- Functional Scope refers to variables created inside functions, which are not accessible outside of its block.
