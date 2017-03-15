@@ -7,4 +7,7 @@ function myApartment() {
   console.log('Mail box: ' + mailBoxNumber + ', Laundry:' + laundryRoom);
 }
 
-console.log(mailBoxNumber);
+console.log(myApartment());
+
+// Mail box: Box 3, Laundry:In-unit
+// undefined
