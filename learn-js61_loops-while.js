@@ -1,3 +1,7 @@
+var cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+
+var currentCard = 'Heart';
+
 while (currentCard !== 'Spade') {
   console.log(currentCard);
 
@@ -5,3 +9,5 @@ while (currentCard !== 'Spade') {
 
   currentCard = cards[randomNumber];
 }
+
+  console.log('Spade is found!');
