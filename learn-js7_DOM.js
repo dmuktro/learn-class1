@@ -5,6 +5,7 @@ function main() {
   alert($skillset);
 }
 
+// DO NOT 2 recall 'main' function itself !
 $(document).ready(main);
 
 // document.getElementsByClassName('skillset');
