@@ -7,4 +7,4 @@ listItem = bucketList[2];
 // console.log(listItem.length); 
 
 bucketList.push('item 3', 'item 4');
-console.log(listItem);
+console.log(bucketList);
