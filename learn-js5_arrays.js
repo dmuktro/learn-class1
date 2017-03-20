@@ -8,3 +8,6 @@ listItem = bucketList[2];
 
 bucketList.push('item 3', 'item 4');
 console.log(bucketList);
+
+bucketList.pop();
+console.log(bucketList);
