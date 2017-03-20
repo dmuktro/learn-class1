@@ -1,0 +1,10 @@
+different URLs:
+
+Что такое Front-end? | DOU
+https://dou.ua/forums/topic/16734/
+
+A successful Git branching model » nvie.com
+http://nvie.com/posts/a-successful-git-branching-model/
+
+Необходимый минимум для фронтенд-разработчика | Frontender Magazine
+http://frontender.info/a-baseline-for-front-end-developers/
