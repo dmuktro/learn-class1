@@ -1,3 +1,2 @@
-var cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+alert('test');
 
-  console.log('Spade is found!');
