@@ -5,3 +5,5 @@ console.log(listItem);
 listItem = bucketList[2]; 
 listItem = bucketList[3]; 
 console.log(listItem);
+
+console.log(listItem.length);
