@@ -1,4 +1,4 @@
-<!-- https://www.w3schools.com/css/css_pseudo_elements.asp
+<!-- https://www.w3schools.com/css/css_pseudo_elements.asp & PSEUDO-classes 
   https://www.w3schools.com/code/tryit.asp?filename=FDVWVC59IQA8  (2 examples) 
 -->
 
@@ -16,11 +16,14 @@ p::first-letter {
     font-size: 28px;
     font-weight: bold;
 }
-  h1::before {
+h1::before {
     content: url(https://www.w3schools.com/css/smiley.gif);
 }
 h2::after {
     content: url(https://www.w3schools.com/css/smiley.gif);
+}
+p:hover {
+    background: grey;
 }
 ::selection {
     color: blue;
