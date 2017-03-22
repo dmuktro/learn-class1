@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('div').fadeOut(1000);
+    $("#green").fadeOut(1000);
 });
