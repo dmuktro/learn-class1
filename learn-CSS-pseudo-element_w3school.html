@@ -22,33 +22,40 @@ h1::before {
 h2::after {
     content: url(https://www.w3schools.com/css/smiley.gif);
 }
-p:hover {
-    background: grey;
-}
 ::selection {
     color: blue;
     background: yellow;
+}
+p:nth-child(4) {
+    background: green;
+}
+p:hover {
+    background: gray;
 }
 </style>
   
 </head>
 <body>
 
-<p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
 
 <!-- The ::before pseudo-element can be used to insert some content before the content of an element.
 The following example inserts an image before the content of each <h1> element:
 -->
  <h1>header 1</h1>
  
+ <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+ 
 <!-- any element can show it 
 -->
  <p>try to select me)</p>
+ 
+ <p>Guess which "child"-paragraph i am ... 
 
   <h2>header 2</h2>
   
-  <p>some n-th paragraph ... 
-  <br>on several lines 
+  <p>some n-th paragraph ..
+  <br>on several lines </p>
   
     
 </body>
