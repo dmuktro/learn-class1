@@ -1,5 +1,4 @@
-<!-- 
-https://www.w3schools.com/css/css_pseudo_elements.asp
+<!-- https://www.w3schools.com/css/css_pseudo_elements.asp
 https://www.w3schools.com/css/tryit.asp?filename=trycss_firstline
   https://www.w3schools.com/code/tryit.asp?filename=FDVWVC59IQA8  (2 examples) 
 -->
@@ -12,11 +11,21 @@ p::first-line {
     color: #ff0000;
     font-variant: small-caps;
 }
+h1::before {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
 </style>
+  
 </head>
 <body>
 
 <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
 
+<!-- The ::before pseudo-element can be used to insert some content before the content of an element.
+The following example inserts an image before the content of each <h1> element:
+-->
+  
+ <h1>header 1</h1>
+  
 </body>
 </html>
