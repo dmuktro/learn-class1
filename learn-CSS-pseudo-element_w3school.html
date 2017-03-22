@@ -8,10 +8,19 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_firstline
 <head>
 <style>
 p::first-line {
-    color: #ff0000;
+    color: red;
     font-variant: small-caps;
+    font-style: italic;
 }
-h1::before {
+p::first-letter {
+    color: brown;
+    font-size: 28px;
+    font-weight: bold;
+}
+  h1::before {
+    content: url(https://www.w3schools.com/css/smiley.gif);
+}
+h2::after {
     content: url(https://www.w3schools.com/css/smiley.gif);
 }
 ::selection {
@@ -34,5 +43,11 @@ The following example inserts an image before the content of each <h1> element:
 -->
  <p>try to select me)</p>
 
+  <h2>header 2</h2>
+  
+  <p>some n-th paragraph ... 
+  <br>on several lines 
+  
+    
 </body>
 </html>
