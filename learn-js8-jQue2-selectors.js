@@ -3,6 +3,7 @@ function main() {
   $('.projects').hide(); 
   $('.projects-button').on('click', 
     function() { $(this).next().toggle(); 
+      $(this).text('Projects reViewed')
     });
 }
 
