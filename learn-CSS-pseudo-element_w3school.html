@@ -14,6 +14,10 @@ p::first-line {
 h1::before {
     content: url(https://www.w3schools.com/css/smiley.gif);
 }
+::selection {
+    color: red;
+    background: yellow;
+}
 </style>
   
 </head>
@@ -24,8 +28,11 @@ h1::before {
 <!-- The ::before pseudo-element can be used to insert some content before the content of an element.
 The following example inserts an image before the content of each <h1> element:
 -->
-  
  <h1>header 1</h1>
-  
+ 
+<!-- -->
+ <p>try to select me)</p>
+
+
 </body>
 </html>
