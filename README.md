@@ -1,7 +1,6 @@
 # test-html
 
 **hello**, *everyone!*
-
-this is my inital Gist on GitHub 
+This is my inital repo Gist on GitHub 
 
 ---- All the best to all of us !!
