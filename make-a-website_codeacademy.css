@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 56px;
 }
 
 
@@ -25,12 +25,11 @@ h2 {
 
 
 p {
-
+  font-size: 2rem;
 }
 
 .hero a {
 	color: #00FFAA;
-	font-size: 24px;
+	font-size: 1.25em;
 	text-decoration: none;
 }
-
