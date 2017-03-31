@@ -6,7 +6,8 @@ body {
 }
 
 h1 {
-  color: #d8dabe;
+  color: rgb(218,190,206);
+  color: #2e69a3;
 	font-size: 32px;
   font-family: Palatino, 'Palatino Linotype', serif;
 }
@@ -31,4 +32,3 @@ p {
 	font-size: 24px;
 	text-decoration: none;
 }
-
