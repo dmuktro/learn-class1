@@ -30,6 +30,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .gallery-item {
@@ -50,6 +51,7 @@ nav {
 nav li {
   margin: 0;
   padding: 0 10px;
+  display: inline;
 }
 
 nav ul {
