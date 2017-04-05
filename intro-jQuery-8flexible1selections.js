@@ -2,7 +2,5 @@
 //  Let's use a compound selector to apply a fadeTo() to both the .pink and .red selectors.
 
 $(document).ready(function() {
-    $('button').click(function() {
-        $('.pink, .red').fadeOut('slow');
-    });
+    $('.pink, .red').fadeTo('slow', 0);
 });
