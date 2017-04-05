@@ -1,0 +1,9 @@
+/* for https://www.codecademy.com/courses/web-beginner-en-GfjC6/1/1?  */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: #F38630;
+    display: none;
+    border-radius: 5px;
+}
