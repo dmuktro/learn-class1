@@ -1,0 +1,9 @@
+/*  https://www.codecademy.com/courses/web-beginner-en-jtFIC/1/3?
+*/
+div {
+    height: 100px;
+    background-color: #ABCDEF;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 1em;
+    text-align: center;
+}
